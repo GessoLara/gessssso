@@ -1,166 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="AKczo4IioKb_I8tENMDkUESpa1RCm9zzGSfuwVTTl04" />
-    <title>Gesso Lara Decorações & Elétrica</title>
-    <meta name="description" content="Gesso Lara: 20 anos de experiência em Gesso, Drywall, Iluminação Integrada e Serviços Elétricos em Sorocaba. Transforme seu ambiente com qualidade e profissionalismo.">
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-lightbox@2.14.2/dist/simple-lightbox.min.css" integrity="sha256-4O18+5s20d77k/n231+w/K0n52Xo5g5O3Q0v5p5N5w8=" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gesso Lara Decorações & Elétrica</title>
+<meta name="description" content="Gesso Lara — Decorações e Elétrica. Portfólio profissional.">
+<base href="/gessolaradecoracoes/">
+<link rel="icon" href="assets/favicon.svg">
+<style>
+:root{--bg:#0b0b0b;--card:#111;--accent:#b8863b;--text:#f5f5f5;--muted:#bdbdbd}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+.header{background:linear-gradient(90deg,#060606,#1a1a1a);padding:18px 0;position:sticky;top:0;z-index:20}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand h1{margin:0;font-size:1.4rem}
+nav a{color:var(--text);text-decoration:none;margin:0 10px;font-weight:600}
+.hero{display:flex;gap:20px;align-items:center;padding:28px 0}
+.hero img{width:420px;max-width:40%;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,.6)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 22px rgba(0,0,0,.5)}
+.portfolio img{width:100%;height:180px;object-fit:cover;border-radius:6px;cursor:pointer}
+.btn{display:inline-block;padding:10px 14px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none;font-weight:700}
+.meta{color:var(--muted);font-size:0.95rem}
+.footer{text-align:center;padding:18px;background:#070707;color:var(--muted);margin-top:28px}
+@media(max-width:720px){ .hero img{order:2;max-width:100%} .brand{flex-direction:column;align-items:flex-start} }
+</style>
 </head>
 <body>
-    <header>
-        <a href="https://wa.me/5515997359403" class="whatsapp-button" target="_blank">WhatsApp</a>
-        <img src="assets/gesso_1.webp" alt="Gesso, Drywall e Elétrica" class="header-image">
-        <h1>Gesso Lara Decorações & Elétrica</h1>
-        <p>Transforme Seu Ambiente</p>
-    </header>
+<header class="header">
+  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between">
+    <div class="brand">
+      <h1>Gesso Lara Decorações & Elétrica</h1>
+      <div class="meta">Transformando ambientes com elegância e segurança</div>
+    </div>
+    <nav aria-label="menu-principal">
+      <a href="index.html">Início</a>
+      <a href="index.html#services">Serviços</a>
+      <a href="index.html#projects">Projetos</a>
+      <a href="index.html#testimonials">Depoimentos</a>
+      <a href="index.html#contact">Contato</a>
+      <a href="galeria/index.html">Galeria</a>
+      <a href="portfolio/index.html">Portfólios</a>
+      <a href="videos/index.html">Vídeos</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero card">
+    <div class="text">
+      <h2>Sancas, forros, nichos e instalações elétricas</h2>
+      <p class="meta">Projetos residenciais e comerciais — acabamento fino e segurança técnica.</p>
+      <p style="margin-top:12px"><a class="btn" href="https://wa.me/5515997359403" target="_blank">Fale no WhatsApp</a></p>
+    </div>
+    <img src="assets/placeholder-hero.svg" alt="Projeto destaque">
+  </section>
 
-    <main>
-        <section id="sobre">
-            <h2>Transforme Seu Ambiente</h2>
-            <p>Com a Experiência de 20 Anos em Gesso, Drywall e Elétrica</p>
-            <blockquote>
-                "Meu ambiente ficou incrível! Profissionalismo e qualidade impecável."
-                <br>- Cliente Satisfeito
-            </blockquote>
-            <div class="stats">
-                <div><strong>20+</strong><br>Anos de Experiência</a>
-                <div><strong>500+</strong><br>Projetos Realizados</a>
-                <div><strong>100%</strong><br>Satisfação</a>
-            </a>
-        </section>
+  <section id="services" style="margin-top:18px">
+    <h3>Serviços</h3>
+    <div class="grid">
+      <div class="card"><h4>Gesso e Acabamento</h4><p class="meta">Sancas, rebaixos, molduras e nichos.</p></div>
+      <div class="card"><h4>Iluminação</h4><p class="meta">Projetos de iluminação embutida e painéis LED.</p></div>
+      <div class="card"><h4>Elétrica</h4><p class="meta">Instalações, revisões e adequações técnicas.</p></div>
+      <div class="card"><h4>Consultoria</h4><p class="meta">Planejamento e otimização de projetos.</p></div>
+    </div>
+  </section>
 
-        <section id="servicos">
-            <h2>Nossos Serviços</h2>
-            <ul>
-                <li>
-                    <img src="assets/portfolio/forro/forro_liso_02.jpg" alt="Gesso e Drywall" class="servico-capa">
-                    <h3>Gesso e Drywall</h3>
-                    <p>Forros, sancas, nichos, paredes e divisórias em Drywall com acabamento de alto padrão.</p>
-                    <a href="https://www.instagram.com/decoracoesgessolara?igsh=MXBnZDU4aGt6cXE5eA==" target="_blank">Ver Galeria</a>
-                </li>
-                <li>
-                    <img src="assets/iluminacao_nova_1.jpg" alt="Iluminação Integrada" class="servico-capa">
-                    <h3>Iluminação Integrada</h3>
-                    <p>Instalação de spots, plafons e projetos luminotécnicos com gesso integrado.</p>
-                    <a href="https://www.instagram.com/decoracoesgessolara?igsh=MXBnZDU4aGt6cXE5eA==" target="_blank">Ver Galeria</a>
-                </li>
-                <li>
-                    <img src="assets/iluminacao_nova_2.jpg" alt="Serviços Elétricos" class="servico-capa">
-                    <h3>Serviços Elétricos</h3>
-                    <p>Infraestrutura elétrica completa, pontos de energia e iluminação profissional.</p>
-                    <a href="https://www.instagram.com/decoracoesgessolara?igsh=MXBnZDU4aGt6cXE5eA==" target="_blank">Ver Galeria</a>
-                </li>
-                <li>
-                    <img src="assets/portfolio_extra_1.jpg" alt="Reformas Completas" class="servico-capa">
-                    <h3>Reformas Completas</h3>
-                    <p>Upgrade completo em salas, quartos e ambientes corporativos com pintura incluída.</p>
-                    <a href="https://www.instagram.com/decoracoesgessolara?igsh=MXBnZDU4aGt6cXE5eA==" target="_blank">Ver Galeria</a>
-                </li>
-            </ul>
-        </section>
+  <section id="projects" style="margin-top:18px">
+    <h3>Projetos</h3>
+    <div class="grid portfolio">
+      <div class="card"><img src="assets/placeholder1.svg" alt="Projeto 1" data-full="assets/placeholder1.svg"></div>
+      <div class="card"><img src="assets/placeholder2.svg" alt="Projeto 2" data-full="assets/placeholder2.svg"></div>
+      <div class="card"><img src="assets/placeholder3.svg" alt="Projeto 3" data-full="assets/placeholder3.svg"></div>
+      <div class="card"><img src="assets/placeholder4.svg" alt="Projeto 4" data-full="assets/placeholder4.svg"></div>
+    </div>
+  </section>
 
-        <section id="portfolio">
-            <h2>Portfólio - Nossos Projetos</h2>
-            <p>Qualidade e detalhe em cada ambiente. Veja alguns de nossos projetos recentes.</p>
-            <div class="ver-mais-container">
-                <a href="nossos_trabalhos.html" class="ver-mais-btn">Ver Portfólio Completo</a>
-            </div>
-            <div class="ver-mais-container">
-                <a href="https://www.facebook.com/gessolaradecoracoesconstrucoes/" target="_blank" class="ver-mais-btn">Ver Mais Projetos no Facebook</a>
-            </div>
-        </section>
+  <section id="testimonials" style="margin-top:18px">
+    <h3>Depoimentos</h3>
+    <div class="grid">
+      <div class="card"><strong>Maria S.</strong><p class="meta">"Acabamento impecável — recomendo."</p></div>
+      <div class="card"><strong>João P.</strong><p class="meta">"Profissionalismo e rapidez."</p></div>
+    </div>
+  </section>
 
-        <section id="depoimentos">
-            <h2>O Que Nossos Clientes Dizem</h2>
-            <div class="depoimentos-container">
-                <blockquote>
-                    <p>"Excelente trabalho! Minha sala ficou linda com o gesso e a iluminação integrada. Recomendo muito!"</p>
-                    <footer>- Maria Silva</footer>
-                </blockquote>
-                <blockquote>
-                    <p>"Equipe profissional e pontual. Gesso e elétrica perfeitos. Voltaria a contratar com certeza!"</p>
-                    <footer>- João Santos</footer>
-                </blockquote>
-                <blockquote>
-                    <p>"Acabamento de qualidade impecável. A Gesso Lara transformou meu ambiente completamente!"</p>
-                    <footer>- Ana Costa</footer>
-                </blockquote>
-            </a>
-        </section>
-
-        <section id="videos">
-            <h2>Vídeos - Inspiração e Tutoriais</h2>
-            <p>Assista a 3 de nossos projetos em ação. Clique no vídeo para reproduzir.</p>
-            <div class="video-gallery">
-                <div class="video-item">
-                    <iframe src="https://www.instagram.com/reel/DPt7g_ljkrP/embed" frameborder="0" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-                </div>
-                <div class="video-item">
-                    <iframe src="https://www.instagram.com/reel/Cqi_eAgN6e4/embed" frameborder="0" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-                </div>
-                <div class="video-item">
-                    <iframe src="https://www.instagram.com/reel/DLfYxAPuo5r/embed" frameborder="0" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-                </div>
-            </div>
-            <div class="ver-mais-container">
-                <a href="https://www.instagram.com/decoracoesgessolara?igsh=MXBnZDU4aGt6cXE5eA==" target="_blank" class="ver-mais-btn">Ver Mais Vídeos no Instagram</a>
-            </div>
-        </section>
-
-        <section id="blog">
-            <h2>Blog - Dicas e Inspiração</h2>
-            <p>Clique nas capas para ler mais sobre as tendências em gesso e iluminação:</p>
-            <div class="blog-grid">
-                <a href="sanca.html" class="blog-item">
-                    <img src="assets/blog/sanca_invertida_corrigida.png" alt="Sanca Invertida">
-                    <h3>Sanca Invertida</h3>
-                    <p>Elegância e Modernidade</p>
-                </a>
-                <a href="spots.html" class="blog-item">
-                    <img src="assets/blog/spots_iluminacao_capa.png" alt="Spots de Iluminação">
-                    <h3>Spots de LED</h3>
-                    <p>Iluminação Direcionada</p>
-                </a>
-                <a href="led.html" class="blog-item">
-                    <img src="assets/blog/perfil_led_capa.png" alt="Perfil de LED">
-                    <h3>Perfil de LED</h3>
-                    <p>Tendência Sofisticada</p>
-                </a>
-            </div>
-        </section>
-
-        <section id="contato">
-            <h2>Entre em Contato</h2>
-            <div class="contato-info">
-                <p><strong><a href="tel:+5515997359403" class="contato-link">(15) 99735-9403</a></strong><br>Disponível para ligações</p>
-                <p><strong><a href="https://wa.me/5515997359403?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20gesso%20e%20el%C3%A9trica" target="_blank" class="contato-link">WhatsApp</a></strong><br>Resposta rápida e prática</p>
-                <p><strong><a href="mailto:contato@gessolara.com.br" class="contato-link">contato@gessolara.com.br</a></strong><br>E-mail para Orçamentos</p>
-                <p><strong>Sorocaba, SP</strong><br>Atendimento na região</p>
-                 <p><strong>Horário de Atendimento</strong><br>Segunda a Sexta: 8h às 18h</p>
-               <form class="contato-form">
-                <input type="text" name="nome" placeholder="Seu Nome">
-                <input type="email" name="email" placeholder="Seu Email">
-                <input type="tel" name="telefone" placeholder="Seu Telefone">
-                <textarea name="mensagem" placeholder="Sua Mensagem"></textarea>
-                <button type="submit">Enviar Mensagem</button>
-            </form> </section>
-
-        <section id="renovar">
-            <h2>Chegou a Hora de Renovar!</h2>
-            <p>Não perca tempo coordenando equipes separadas. Traga sua ideia para nós e veja seu ambiente se transformar em uma obra de arte.</p>
-        </section>
-    </main>
-
-    <footer>
-        <!-- Rodapé, se houver mais conteúdo -->
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/simple-lightbox@2.14.2/dist/simple-lightbox.min.js" integrity="sha256-2e11+0f8+P3n3Q0v5p5N5w8=" crossorigin="anonymous"></script>
-    <script src="script.js?v=2.0"></script>
+  <section id="contact" style="margin-top:18px">
+    <h3>Contato</h3>
+    <div class="card">
+      <p>WhatsApp: <a href="https://wa.me/5515997359403" target="_blank">+55 (15) 99735-9403</a></p>
+      <p class="meta">Email: contato@gessolara.com</p>
+    </div>
+  </section>
+</main>
+<footer class="footer">© 2025 Gesso Lara Decorações & Elétrica — Todos os direitos reservados.</footer>
 </body>
-</html>
 </html>
